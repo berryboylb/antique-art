@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+.roadmap {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    h3 {
+        text-align: center;
+    }
+
+    .inner {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 2%;
+        grid-gap: 0;
+
+        .left {
+            border-right: 5px solid #3ab8fe;
+           position: relative;
+           padding: 3%;
+           &::after {
+               content: '';
+               position: absolute;
+               top: 0;
+               bottom: 0;
+                right: -1.8%;
+               border-right: 5px solid #3ab8fe;
+           }
+
+           .con {
+            position: absolute;
+            top: -2%;
+            right: -3%;
+            z-index: 3;
+            font-size: 1.7rem;
+            color: #FFF;
+        }
+
+        p {
+            color: #3ab8fe;
+            text-align: right;
+        }
+        ul {
+            margin-top: 2%;
+            .map {
+                color: #3ab8fe ;
+            }
+
+            li {
+                list-style-type: none;
+                font-family: 'Inter', sans-serif;
+                font-size: 1.2rem;
+                margin-top: 2%;
+                color: #FFF;
+                font-weight: 800;
+                text-align: right;
+                line-height: 1.7;
+                
+
+                a {
+                    text-decoration: none;
+                    color: #FFF;
+
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+        }
+
+        .right {
+            border-left: 5px solid #3ab8fe;
+            position: relative;
+            padding: 3%;
+           &::after {
+               content: '';
+               position: absolute;
+               top: 0;
+               bottom: 0;
+                left: -1.8%;
+               border-right: 5px solid #3ab8fe;
+           }
+
+           .con {
+               position: absolute;
+               top: -2%;
+               left: -3%;
+               z-index: 3;
+               font-size: 1.7rem;
+               color: #FFF;
+           }
+
+           p {
+               color: #3ab8fe;
+           }
+           ul {
+               margin-top: 2%;
+               .map {
+                color: #3ab8fe ;
+                }
+               li {
+                   list-style-type: none;
+                   font-family: 'Inter', sans-serif;
+                   font-size: 1.2rem;
+                   margin-top: 2%;
+                   color: #FFF;
+                   line-height: 1.7;
+                   font-weight: 800;
+
+                   a {
+                       text-decoration: none;
+                       color: #FFF;
+
+                       &:hover {
+                           opacity: 0.8;
+                       }
+                   }
+               }
+           }
+        }
+
+        .active {
+
+            border-left: 5px solid blueviolet;
+            
+           &::after {
+               border-right: 5px solid blueviolet;
+               
+           }
+        }
+
+        .activated{
+            color: blueviolet !important;
+        }
+
+        .activeLi {
+            .map {
+                color: blueviolet !important;
+            }
+        }
+
+    }
+
+   
+
+}
+
+@media screen and (max-width:1200px) {
+    .roadmap {
+    
+        .inner {
+            grid-template-columns: 100%;
+            .left {
+                border-right: 5px solid #3ab8fe;
+               position: relative;
+               padding: 4%;
+               &::after {
+                   content: '';
+                   position: absolute;
+                   top: 0;
+                   bottom: 0;
+                    right: -2%;
+                   border-right: none;
+               }
+    
+               .con {
+                   display: none;
+                }
+    
+            p {
+                color: #3ab8fe;
+                text-align: right;
+            }
+            ul {
+                margin-top: 2%;
+                .map {
+                    color: #3ab8fe ;
+                }
+    
+                li {
+                    list-style-type: none;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 1rem;
+                    margin-top: 2%;
+                    color: #FFF;
+                    text-align: right;
+                    line-height: 1.7;
+                    f
+                    
+    
+                    a {
+                        text-decoration: none;
+                        color: #FFF;
+    
+                        &:hover {
+                            opacity: 0.8;
+                        }
+                    }
+                }
+            }
+            }
+
+            
+            .right {
+                border-left: 5px solid #3ab8fe;
+                position: relative;
+                padding: 4%;
+               &::after {
+                   content: '';
+                   position: absolute;
+                   top: 0;
+                   bottom: 0;
+                    left: -2%;
+                   border-right: none;
+               }
+    
+               .con {
+                   display: none;
+               }
+    
+               p {
+                   color: #3ab8fe;
+               }
+               ul {
+                   margin-top: 2%;
+                   .map {
+                    color: #3ab8fe ;
+                    }
+                   li {
+                       list-style-type: none;
+                       font-family: 'Inter', sans-serif;
+                       font-size: 1rem;
+                       margin-top: 2%;
+                       color: #FFF;
+                       line-height: 1.7;
+    
+                       a {
+                           text-decoration: none;
+                           color: #FFF;
+    
+                           &:hover {
+                               opacity: 0.8;
+                           }
+                       }
+                   }
+               }
+            }
+
+            .active {
+                border-left: 5px solid blueviolet !important;
+            }
+    
+        }
+    
+       
+    
+    } 
+}

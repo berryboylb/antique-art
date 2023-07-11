@@ -1,0 +1,136 @@
+.about{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    .who {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .lottie {
+            width: 48%;
+            height: 400px;
+
+             lottie-player {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .content {
+            width: 48%;
+
+            h3 {
+                color: #3ab8fe;
+            }
+             p {
+                 margin-top: 5%;
+                 line-height: 2;
+             }
+        }
+    }
+
+    .aim {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .lottie {
+            width: 48%;
+            height: 400px;
+
+             lottie-player {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+
+        .content {
+            width: 48%;
+
+            h3 {
+                color: #3ab8fe;
+            }
+             p {
+                 margin-top: 5%;
+                 line-height: 2;
+             }
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .about{
+    
+        .who {
+            .lottie {
+                width: 48%;
+                height: 300px;
+            }
+    
+        
+        }
+    
+        .aim {
+    
+            .lottie {
+                height: 300px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:540px) {
+    .about{
+    
+        .who {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+    
+            .lottie {
+                width: 100%;
+            }
+    
+            .content {
+                width: 100%;
+                h3, p {
+                    text-align: center;
+                }
+                 
+            }
+            .show {
+                display: none;
+            }
+            .hide {
+                display: block;
+            }
+        }
+    
+        .aim {
+            flex-direction: column;
+    
+            .lottie {
+                width: 100%;
+            }
+    
+            .content {
+                width: 100%;
+    
+                h3,p {
+                    text-align: center;
+                }
+                 
+            }
+        }
+    }
+}

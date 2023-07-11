@@ -1,0 +1,152 @@
+.airdrop {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.airdrop .icon {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  color: #3ab8fe;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.airdrop .error div {
+  margin-left: 50%;
+  margin-right: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.airdrop .error div img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.airdrop .error h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  margin-top: 2%;
+}
+
+.airdrop form {
+  width: 50%;
+  border-radius: 12px;
+  padding: 2%;
+}
+
+.airdrop form h3 {
+  text-align: center;
+}
+
+.airdrop form div input {
+  width: 100%;
+  padding: 2%;
+  border-radius: 5px;
+  outline: none;
+  background: none;
+  border: 1px solid  #ddd;
+  color: #3ab8fe;
+}
+
+.airdrop form div input::-webkit-input-placeholder {
+  color: #3ab8fe;
+}
+
+.airdrop form div input:-ms-input-placeholder {
+  color: #3ab8fe;
+}
+
+.airdrop form div input::-ms-input-placeholder {
+  color: #3ab8fe;
+}
+
+.airdrop form div input::placeholder {
+  color: #3ab8fe;
+}
+
+.airdrop form div input:focus {
+  border: 1px solid  #3ab8fe;
+}
+
+.airdrop form div button {
+  padding: 2%;
+  width: 100%;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 1024px) {
+  .airdrop .icon {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    color: #3ab8fe;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .airdrop .error div {
+    height: 70px;
+    width: 70px;
+  }
+  .airdrop .error h3 {
+    font-size: 1rem;
+  }
+  .airdrop form h3 {
+    font-size: 1rem;
+  }
+  .airdrop form button {
+    padding: 3%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .airdrop {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .airdrop form {
+    width: 90%;
+  }
+  .airdrop form div input {
+    padding: 3%;
+  }
+}
+/*# sourceMappingURL=styles.module.css.map */

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="211" height="50" viewBox="0 0 211 50">
+  <style>      
+      svg text{
+        font-family:Arial
+      }
+  </style>  
+  <g id="Logo" transform="translate(-300 -34)">
+    <g id="Group_13" data-name="Group 13" transform="translate(-126 -226.313)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="5" height="26" transform="translate(426 278.313)" fill="#fff"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="4" height="26" transform="translate(479 278.313)" fill="#fff"/>
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="4" height="22" transform="translate(488 260.313)" fill="#fff"/>
+      <rect id="Rectangle_6" data-name="Rectangle 6" width="4" height="29" transform="translate(453 260.313)" fill="#fff"/>
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="5" height="11" transform="translate(444 278.313)" fill="#fff"/>
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="5" height="11" transform="translate(470 278.313)" fill="#fff"/>
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="5" height="44" transform="translate(435 260.313)" fill="#fff"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="4" height="44" transform="translate(462 260.313)" fill="#fff"/>
+    </g>
+    <text id="Black_Market" data-name="Black Market" transform="translate(360 55)" fill="#fff" font-size="24" font-family="Inter-SemiBold, Inter" font-weight="600"><tspan x="0" y="23">Black Market</tspan></text>
+  </g>
+</svg>

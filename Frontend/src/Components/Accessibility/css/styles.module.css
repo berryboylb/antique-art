@@ -1,0 +1,165 @@
+.access {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.access .inner h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.access .inner .carl {
+  padding: 2%;
+  padding-top: 3%;
+  background: #3ab8fe;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 5px 30px 1px black;
+          box-shadow: 1px 5px 30px 1px black;
+}
+
+.access .inner .prawn {
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.access .inner .prawn .lotCon {
+  height: 400px;
+  width: 48%;
+}
+
+.access .inner .prawn .lotCon lottie-player {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.access .inner .prawn .louis {
+  width: 50%;
+}
+
+.access .inner .prawn .hide {
+  display: none;
+}
+
+.access .inner .prawn h1 {
+  color: #3ab8fe;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  margin-top: 2%;
+}
+
+.access .inner .prawn p {
+  margin-top: 2%;
+  line-height: 2;
+  font-weight: 500;
+  color: #Fff;
+  font-weight: 800;
+}
+
+.access .inner .slidee {
+  width: 100%;
+  height: 400px;
+}
+
+.access .inner .slidee img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+  width: 100%;
+  height: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+  .access {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .access .inner h3 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .access .inner .prawn .lotCon {
+    height: 300px;
+    width: 48%;
+  }
+  .access .inner .prawn h1 {
+    font-size: 1.2rem;
+  }
+  .access .inner .slidee {
+    width: 100%;
+    height: 300px;
+  }
+  .access .inner .slidee img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 100%;
+    width: 100%;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .access .inner .prawn {
+    margin-top: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .access .inner .prawn .lotCon {
+    height: 400px;
+    width: 100%;
+  }
+  .access .inner .prawn .lotCon lottie-player {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 10px;
+  }
+  .access .inner .prawn .louis {
+    width: 100%;
+  }
+  .access .inner .prawn .hide {
+    display: block;
+  }
+  .access .inner .prawn .show {
+    display: none;
+  }
+  .access .inner .prawn h1, .access .inner .prawn p {
+    text-align: center;
+  }
+  .access .inner .slidee {
+    width: 100%;
+    height: 150px;
+  }
+  .access .inner .slidee img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 100%;
+    width: 100%;
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=styles.module.css.map */

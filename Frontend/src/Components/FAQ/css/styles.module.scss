@@ -1,0 +1,18 @@
+.accord {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Inter', sans-serif !important;
+    h3 {
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    .accordion__button {
+        background-color: #3ab8fe !important;
+        color: #fff !important;
+    }
+    
+    .accordion__button:hover {
+        background-color: #3ab8be !important;
+    }
+}

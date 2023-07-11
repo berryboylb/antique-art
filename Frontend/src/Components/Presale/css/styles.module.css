@@ -1,0 +1,152 @@
+.presale {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.presale .icon {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  color: #3ab8fe;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.presale .error div {
+  margin-left: 50%;
+  margin-right: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.presale .error div img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.presale .error h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  margin-top: 2%;
+}
+
+.presale form {
+  width: 50%;
+  border-radius: 12px;
+  padding: 2%;
+}
+
+.presale form h3 {
+  text-align: center;
+}
+
+.presale form div input {
+  width: 100%;
+  padding: 2%;
+  border-radius: 5px;
+  outline: none;
+  background: none;
+  border: 1px solid  #ddd;
+  color: #3ab8fe;
+}
+
+.presale form div input::-webkit-input-placeholder {
+  color: #3ab8fe;
+}
+
+.presale form div input:-ms-input-placeholder {
+  color: #3ab8fe;
+}
+
+.presale form div input::-ms-input-placeholder {
+  color: #3ab8fe;
+}
+
+.presale form div input::placeholder {
+  color: #3ab8fe;
+}
+
+.presale form div input:focus {
+  border: 1px solid  #3ab8fe;
+}
+
+.presale form div button {
+  padding: 2%;
+  width: 100%;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 1024px) {
+  .presale .icon {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    color: #3ab8fe;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .presale .error div {
+    height: 70px;
+    width: 70px;
+  }
+  .presale .error h3 {
+    font-size: 1rem;
+  }
+  .presale form h3 {
+    font-size: 1rem;
+  }
+  .presale form button {
+    padding: 3%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .presale {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .presale form {
+    width: 90%;
+  }
+  .presale form div input {
+    padding: 3%;
+  }
+}
+/*# sourceMappingURL=styles.module.css.map */

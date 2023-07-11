@@ -1,0 +1,143 @@
+.about {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.about .who {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .who .lottie {
+  width: 48%;
+  height: 400px;
+}
+
+.about .who .lottie lottie-player {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.about .who .hide {
+  display: none;
+}
+
+.about .who .content {
+  width: 48%;
+}
+
+.about .who .content h3 {
+  color: #3ab8fe;
+}
+
+.about .who .content p {
+  margin-top: 5%;
+  line-height: 2;
+}
+
+.about .aim {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .aim .lottie {
+  width: 48%;
+  height: 400px;
+}
+
+.about .aim .lottie lottie-player {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.about .aim .content {
+  width: 48%;
+}
+
+.about .aim .content h3 {
+  color: #3ab8fe;
+}
+
+.about .aim .content p {
+  margin-top: 5%;
+  line-height: 2;
+}
+
+@media screen and (max-width: 1024px) {
+  .about .who .lottie {
+    width: 48%;
+    height: 300px;
+  }
+  .about .aim .lottie {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .about .who {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about .who .lottie {
+    width: 100%;
+  }
+  .about .who .content {
+    width: 100%;
+  }
+  .about .who .content h3, .about .who .content p {
+    text-align: center;
+  }
+  .about .who .show {
+    display: none;
+  }
+  .about .who .hide {
+    display: block;
+  }
+  .about .aim {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about .aim .lottie {
+    width: 100%;
+  }
+  .about .aim .content {
+    width: 100%;
+  }
+  .about .aim .content h3, .about .aim .content p {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=styles.module.css.map */

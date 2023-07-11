@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+.pop {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pop .icon {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  color: #3ab8fe;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.pop .inner {
+  width: 50%;
+  border-radius: 12px;
+  padding: 2%;
+}
+
+.pop .inner .approved {
+  background: #3ab8fe;
+  padding: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2%;
+  border-radius: 8px;
+}
+
+.pop .inner .approved .conn {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-left: 2%;
+}
+
+.pop .inner .approved h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  margin-left: 2%;
+}
+
+.pop .inner button {
+  padding: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.pop .inner button div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pop .inner button div img {
+  height: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .pop .icon {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    color: #3ab8fe;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .pop .inner .approved .conn {
+    font-size: 1rem;
+    margin-left: 3%;
+  }
+  .pop .inner .approved h3 {
+    font-size: 0.8rem;
+    margin-left: 2%;
+  }
+  .pop .inner button {
+    padding: 3%;
+  }
+  .pop .inner button div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .pop .inner button div img {
+    height: 25px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pop {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .pop .inner {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=styles.module.css.map */

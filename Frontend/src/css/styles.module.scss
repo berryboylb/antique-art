@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    //background: rgba($color: #000000, $alpha: 1.0);
+    background: #212529;
+}
+
+//defining my container
+.myContainer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} 
+@media (min-width: 576px) {
+    .myContainer {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .myContainer {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .myContainer {
+        width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .myContainer {
+        width: 1140px;
+    }
+}
+
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #fff;
+}
+
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 1.125rem;
+    line-height: 24px;
+    color: #fff;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 45px;
+    color: #fff;
+}
+
+button, .link {
+    font-family: 'Inter', sans-serif;
+    background: #3ab8fe;
+    outline: none;
+    border: 1px solid #3ab8fe;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 1%;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+
+    &:hover {
+        background: none;
+        color: #3ab8fe;
+        transition: all 1s;
+    }
+}
+
+@media screen and (max-width:1024px){
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    button, .link {
+        font-size: 0.8rem;
+        padding: 2%;
+    }
+}
